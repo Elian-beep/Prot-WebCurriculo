@@ -23,7 +23,7 @@ export default function Home() {
         {/* CONTATO */}
         <div className='contact-me flex-resume'>
           <h2>Contato</h2>
-          <a href="https://elian.19batista@gmail.com"><i><FaEnvelope /> elian.19batista@gmail</i></a>
+          <a href="https://elian.19batista@gmail.com"><i><FaEnvelope /> elian.19batista</i></a>
           <a href="https://basic-portfolio-delta.vercel.app/"><i><FaAngellist /> Meu Portifólio</i></a>
           <a href="https://github.com/Elian-beep"><i><FaGithub /> Elian Beep</i></a>
           <a href="https://api.whatsapp.com/send?phone=5592985878449&text=Ol%C3%A1%20Elian!"><i><FaWhatsapp /> (92) 98587-8449</i></a>
@@ -42,9 +42,10 @@ export default function Home() {
 
         {/* PRÊMIOS */}
         <div className='prizes flex-resume'>
-          <p><FaTrophy />Torneio de Robótica com Arduino (2018)</p>
-          <p><FaTrophy />Maratona de Programação (2019)</p>
-          <p><FaTrophy />Maratona de Programação (2019)</p>
+          <h2>Prêmios</h2>
+          <p><FaTrophy /> Torneio de Robótica com Arduino (2018)</p>
+          <p><FaTrophy /> Maratona de Programação (2019)</p>
+          <p><FaTrophy /> Maratona de Programação (2019)</p>
         </div>
 
         {/* Perfil */}
