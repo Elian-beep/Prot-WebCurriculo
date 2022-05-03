@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import styles from '../../styles/Home.module.css';
 
-import { FaGithub, FaEnvelope, FaAngellist, FaWhatsapp } from 'react-icons/fa';
+import { FaGithub, FaEnvelope, FaAngellist, FaWhatsapp, FaBatteryEmpty, FaBatteryHalf, FaBatteryFull } from 'react-icons/fa';
 
 export default function Home() {
   return (
@@ -24,7 +24,7 @@ export default function Home() {
 
         {/* CONTATO */}
         <div className='contact-me flex-resume'>
-          <h2>Contate-me</h2>
+          <h2>Contato</h2>
           <a href="https://elian.19batista@gmail.com"><i><FaEnvelope /> elian.19batista</i></a>
           <a href="https://basic-portfolio-delta.vercel.app/"><i><FaAngellist /> Meu Portifólio</i></a>
           <a href="https://github.com/Elian-beep"><i><FaGithub /> Elian Beep</i></a>
@@ -33,12 +33,13 @@ export default function Home() {
 
         {/* HABILIDADES */}
         <div className='skills flex-resume'>
-          HTML
-          CSS
-          JavaScript
-          ReacjJs
-          NextJs
-          Bootstrap 5
+          <h2>Skills</h2>
+          <p><FaBatteryFull /> HTML</p>
+          <p><FaBatteryFull /> CSS</p>
+          <p><FaBatteryFull /> Bootstrap 5</p>
+          <p><FaBatteryHalf /> JavaScript</p>
+          <p><FaBatteryEmpty /> ReacjJs</p>
+          <p><FaBatteryEmpty /> NextJs</p>
         </div>
 
         {/* PRÊMIOS */}
