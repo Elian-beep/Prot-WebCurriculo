@@ -58,8 +58,9 @@ h1{
 h2, h3, h4{
     color: var(--color);
     font-weight: 600;
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.2rem;
 }
+
 
 /* ===============================LINKS */
 a{

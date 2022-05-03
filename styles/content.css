@@ -54,7 +54,40 @@
 
 .profile{
     grid-area: 2 / 2 / 5 / 3;
+    margin-top: -100px;
     background-color: var(--back-color-right);
+}
+
+.profile .about-me{
+    margin-bottom: 1em;
+}
+
+.profile .about-me h2{
+    margin-bottom: 0.3em;
+}
+
+.profile .schooling{
+    margin-bottom: 1em;
+}
+
+.profile .schooling h2{
+    margin-bottom: 0.3em;
+}
+
+.profile .schooling p{
+    margin-bottom: 1em;
+}
+
+.profile .experience{
+    margin-bottom: 1em;
+}
+
+.profile .experience h2{
+    margin-bottom: 0.3em;
+}
+
+.profile .experience p{
+    margin-bottom: 1em;
 }
 
 .flex-resume{

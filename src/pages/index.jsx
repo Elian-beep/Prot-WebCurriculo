@@ -11,9 +11,7 @@ export default function Home() {
       <div className='parent container'>
 
         <div className='profile--perfil flex'>
-          <div>
-            <img src="/profile.jpg" alt="" />
-          </div>
+          <img src="/profile.jpg" alt="" />
         </div>
 
         {/* NOME E TRABALHO */}
@@ -25,7 +23,7 @@ export default function Home() {
         {/* CONTATO */}
         <div className='contact-me flex-resume'>
           <h2>Contato</h2>
-          <a href="https://elian.19batista@gmail.com"><i><FaEnvelope /> elian.19batista</i></a>
+          <a href="https://elian.19batista@gmail.com"><i><FaEnvelope /> elian.19batista@gmail.com</i></a>
           <a href="https://basic-portfolio-delta.vercel.app/"><i><FaAngellist /> Meu Portifólio</i></a>
           <a href="https://github.com/Elian-beep"><i><FaGithub /> Elian Beep</i></a>
           <a href="https://api.whatsapp.com/send?phone=5592985878449&text=Ol%C3%A1%20Elian!"><i><FaWhatsapp /> (92) 98587-8449</i></a>
@@ -52,10 +50,41 @@ export default function Home() {
         {/* Perfil */}
         <div className='profile'>
 
-          <h2>Sobre mim</h2>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, delectus, sint enim quae architecto, quia suscipit quaerat corporis culpa quas est earum quis esse minus odit exercitationem? Vel, ex ratione.
-          </p>
+          <div className='about-me'>
+            <h2>Sobre mim</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, delectus, sint enim quae architecto., quia suscipit quaerat corporis culpa quas est earum quis esse minus odit exercitationem? Vel, ex ratione.
+            </p>
+          </div>
+
+          <div className='schooling'>
+            <h2>Escolaridade</h2>
+            <p>
+              <h3>UEA - Itacoatiara</h3>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, delectus, sint enim quae architecto.
+            </p>
+            <p>
+              <h3>IFAM - Parintins</h3>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, delectus, sint enim quae architecto.
+            </p>
+          </div>
+
+          <div className='experience'>
+            <h2>Experiências</h2>
+            <p>
+              <h3>CETAM (Itacoatiara-AM)</h3>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, delectus, sint enim quae architecto.
+            </p>
+            <p>
+              <h3>Futuro Informática (Terra Santa-PA)</h3>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, delectus, sint enim quae architecto.
+            </p>
+            <p>
+              <h3>PC informática (Parintins-AM)</h3>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, delectus, sint enim quae architecto.
+            </p>
+
+          </div>
 
         </div>
 
