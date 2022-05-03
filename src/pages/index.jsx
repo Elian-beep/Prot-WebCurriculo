@@ -54,7 +54,11 @@ export default function Home() {
           <div className='about-me'>
             <h2>Sobre mim</h2>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, delectus, sint enim quae architecto., quia suscipit quaerat corporis culpa quas est earum quis esse minus odit exercitationem? Vel, ex ratione.
+              Faço projetos pessoais para aperfeiçoamento das habilidades Front End públicos, desenvolvidos com as
+              tecnologias HTML, CSS, Bootstrap, JavaScript, ReactJs, NextJS, Styled-Components e outras dependencias
+              mais usadas para aplicações web. Experiência de 8 anos com lógica de programação, familiarização com diversas linguagens de
+              programação, entendimento altamente funcional com a linguagem de dados SQL. Experiência e facilidade
+              para trabalho em grupo e no cumprimento de metas e prazos. Boa comunicação verbal e escrita.
             </p>
           </div>
 
@@ -62,11 +66,15 @@ export default function Home() {
             <h2>Escolaridade</h2>
             <p>
               <h3>UEA - Itacoatiara</h3>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, delectus, sint enim quae architecto.
+              Bacharel em Ciência da Computação - 5º Período
+              (Previsão de Término: Jun/2024)
             </p>
             <p>
               <h3>IFAM - Parintins</h3>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, delectus, sint enim quae architecto.
+              Ensino Médio Integrado ao Técnico em Informatica<br />
+              Início: Fev/2016<br />
+              Término: Nov/2018
+
             </p>
           </div>
 
@@ -74,15 +82,18 @@ export default function Home() {
             <h2>Experiências</h2>
             <p>
               <h3>CETAM (Itacoatiara-AM)</h3>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, delectus, sint enim quae architecto.
+              Estagiário no Setor Apoio Pedagógico<br />
+              Jul/2021 - Atualmente
             </p>
             <p>
               <h3>Futuro Informática (Terra Santa-PA)</h3>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, delectus, sint enim quae architecto.
+              Tutor de Informática Kids e Básica<br />
+              Fev/2019 – Julho/2019
             </p>
             <p>
               <h3>PC informática (Parintins-AM)</h3>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, delectus, sint enim quae architecto.
+              Estagiário de Informática<br />
+              Fev/2018 – Junho/2018
             </p>
 
           </div>
