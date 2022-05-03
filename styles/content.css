@@ -1,0 +1,66 @@
+
+/* ================================ CLASSES CSS REUSÁVEIS ================================ */
+.container{
+    max-width: 968px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ======================= MAIN */
+/* ======================= MAIN GRID */
+.parent{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(5, auto);
+}
+
+.parent>div{
+    padding: 1.5rem;
+}
+
+.profile--perfil{
+    grid-area: 1 / 1 / 2 / 2;
+    background-color: var(--back-color-left);
+    margin: -10px;
+}
+
+.profile-name{
+    grid-area: 1 / 2 / 2 / 3;
+    background-color: var(--back-color-right);
+}
+
+.contact-me{
+    grid-area: 2 / 1 / 3 / 2;
+    background-color: var(--back-color-left);
+    color: var(--text-color-light);
+}
+
+.skills{
+    grid-area: 3 / 1 / 4 / 2;
+    background-color: var(--back-color-left);
+    color: var(--text-color-light);
+}
+
+.prizes{
+    grid-area: 4 / 1 / 5 / 2;
+    background-color: var(--back-color-left);
+    color: var(--text-color-light);
+}
+
+.profile{
+    grid-area: 2 / 2 / 5 / 3;
+    background-color: var(--back-color-right);
+}
+
+.flex-resume{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.5rem;
+}

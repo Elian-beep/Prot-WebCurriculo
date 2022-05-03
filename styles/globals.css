@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Popplins:ital,wght@0,400;0,600;1,400&display=swap');
+
+/* ===============================VARIÁVEIS */
+:root{
+    /* === CORES === */
+    --back-color: #FFF;
+    --back-color-left: #065c60;
+    --back-color-right: rgb(255, 245, 232);
+    --color: #ffa470;
+    --color-icon: #91dadd;
+    --light-color: #fff2ea;
+    --dark-color: #065c60;
+    --text-color-dark: #000;
+    --text-color-light: #FFF;
+
+    /* === FONTE E TIPOGRAFIA === */
+    --body-font: 'Poppins', sans-serif;
+    --h1-font-size: 2rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+
+    @media screen and (min-width: 968px) {
+        :root{
+            --h2-font-size: 1.5rem;
+            --h3-font-size: 1.25rem;
+            --normal-font-size: 1rem;
+            --small-font-size: .875rem;
+            --smaller-font-size: .813rem;
+        }
+    }
+}
+
+/* ===============================BASE */
+
+* {
+    box-sizing: border-box;
+
+    padding: 0;
+    margin: 0;
+}
+
+.body-geral{
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    background-color: var(--back-color);
+    color: var(--text-color-dark);
+}
+
+/* ===============================TITULOS */
+h1{
+    color: var(--dark-color);
+    border-bottom: 2px solid var(--color);
+}
+
+h2, h3, h4{
+    color: var(--color);
+    font-weight: 600;
+    letter-spacing: 0.3rem;
+}
+
+/* ===============================LINKS */
+a{
+    outline: none;
+    text-decoration: none;
+    font-size: 0.7rem;
+}
+
+img{
+    max-width: 100%;
+    height: 180px;
+    width: 130px;
+    border-radius: 200px;
+}
+
+@media (max-width: 600px) {
+    img{
+        width: 150px;
+        height: 190px;
+    }
+}
+
+/* ===============================TEXTOS */
+p{
+    font-size: var(--smaller-font-size);
+}
+
+/* ===============================ICONS */
+i{
+    margin: 0.8rem;
+    color: var(--color-icon);
+}
