@@ -54,7 +54,7 @@
 
 .profile{
     grid-area: 2 / 2 / 5 / 3;
-    margin-top: -100px;
+    margin-top: -80px;
     background-color: var(--back-color-right);
 }
 
